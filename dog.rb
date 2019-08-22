@@ -8,18 +8,13 @@ def initialize(breed, name)
 def wag_tail
     puts "Tail wagging"
    end
- end
- => :wag_tail 
+ end 
 class Dog
- [...]
 def wag_tail
   puts "Tail wagging"
   end
  end 
-dog = Dog.new('shitzu', 'freddie')
- 
- dog.wag_tail
-Tail wagging
+
 
 
 
